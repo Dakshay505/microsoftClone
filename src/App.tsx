@@ -1,14 +1,16 @@
 import './App.css'
-
+import Navbar from './components/header/Navbar';
+import Slider from './components/header/Slider'
+import Promo from './components/home/Promo';
 function App() {
  
 
   return (
-    <>
-      <h1 className="text-3xl text-fuchsia-800 font-bold underline">
-      Hello world!
-    </h1>
-    </>
+    <div className='transition-all ease-in-out duration-200 scroll-smooth'>
+      <Navbar />
+      <Slider />
+      <Promo />
+    </div>
   )
 }
 
